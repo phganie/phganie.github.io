@@ -1,0 +1,215 @@
+/* STYLE SECTIONING TAGS */
+html {
+  scroll-behavior: smooth;
+}
+* { /* Reset the space of the webpage */
+   scroll-behavior:  smooth;
+}
+
+body {
+  background: linear-gradient( 125deg, #48c3e9, rgb(171, 218, 250), #0357f3) ;
+/* background: linear-gradient(360deg, #407abd, #90e0ef, #0077b6);  */
+}
+
+/* STYLE TEXT */
+/* OCR A Std, monospace */
+#main {
+  background-image: url(assets/cyberr.webp);
+  color:#ffd500;
+  font-family: Stencil Std, fantasy;
+  font-style: bold;
+  font-size: 100px;
+  padding: 100px;
+  border: 6px groove #ffd500;
+}
+
+h1 {
+  color: #fadc44;
+  font-family: Stencil Std, fantasy;
+  font-size: 50px;
+  text-shadow: 2px 2px #00296b;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-shadow: 4px 4px blue ;
+  font-family: Stencil Std, fantasy;
+  font-size: 40px;
+  margin: 20px;
+  border: 10px solid #fadc44;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.content {
+  font-size: 30px;
+  color: white;
+  font-family: Bookman, URW Bookman L, serif;
+  text-shadow: 2px 1px black;
+  margin: 20px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 3px 3px black;
+  background: linear-gradient(45deg, #000b6b, #407abd, #00296b);
+  border: 4px outset #fadc44;
+
+}
+
+h3 {
+  color: #fadc44;
+  text-shadow: 2px 2px #00296b;
+  text-align: center;
+  font-size: 30px;
+}
+/* STYLE IMAGES */
+#pic1 {
+  margin: 34px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  border: 12px solid#fadc44;
+}
+
+#pic2 {
+  margin: 34px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  margin-bottom: 0em;
+	margin-top: 0.5em;
+  margin-left: 25%;
+    border: 12px solid#fadc44;
+
+}
+#takeActionPic {
+  margin: 34px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  margin-bottom: 5em;
+	margin-top: 0.5em;
+  margin-left: 36%;
+  border-radius: 23px;
+    border: 12px solid#fadc44;
+
+
+}
+/* STYLE NAV BAR */
+nav {
+  background: linear-gradient(45deg, #00296b, #407abd, #00296b);
+  text-align: left;
+  border-radius: 0px;
+  padding: 15px;
+  margin: auto;
+  font-style: bold;
+  border: 4px solid #fadc44;
+}
+ul {
+   list-style-type: none;
+ }
+li {
+   display: inline;
+  font-family:The Quick Brown Fox Jumps Over The Lazy Dog;
+   font-weight: 900;
+   font-size: 20px;
+ }
+li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1em;
+ }
+ 
+li a:hover {
+   background-color: #ffd500;
+   padding: 1px;
+ }
+/* STYLE BUTTONS */
+.navButton {
+  align-self: auto;
+  padding: 20px;
+  text-shadow: 2px 2px #00296b;
+
+}
+/* ADD MORE! */
+#imagetextContainer1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer {
+  background: linear-gradient(45deg, #00296b, #407abd, #00296b);
+  text-align: left;
+  border-radius: 0px;
+  padding: 15px;
+  margin: auto;
+  font-style: bold;
+  border: 5px solid #fadc44;
+  color: white;
+ 
+}
+#takeActionSteps {
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 1px black;  ;
+}
+#inputPacket {
+    
+   background: linear-gradient(45deg, #00296b, #407abd, #00296b);
+  color: white;
+  text-shadow: 4px 4px blue ;
+  font-family: Stencil Std, fantasy;
+  font-size: 20px;
+  margin: 20px;
+  border: 10px solid #fadc44;
+  padding: 20px;
+  text-align: center;
+}
+#nameInput {
+    width:192px;
+    height:27px;
+}
+
+#factButton {
+  border-radius: 45px;
+  background-color: #ffd500;
+  font-family: Stencil Std, fantasy;
+  padding:10px;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 14px;
+}
+
+#outputPacket {
+  background: linear-gradient(45deg, #00296b, #407abd, #00296b);
+  color: white;
+  text-shadow: 4px 4px blue ;
+  font-family: Stencil Std, fantasy;
+  font-size: 20px;
+  margin: 20px;
+  border: 10px solid #fadc44;
+  padding: 20px;
+  text-align: center;
+}
+
+#video {
+  margin-left: 33%;
+  border: 12px solid#fadc44;
+  margin-bottom: 5em;
+
+
+}
+/* .flex-container {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+}
+
+.flex-item {
+ flex-basis: 100%;
+ margin: 1%;
+}
+@mdia screen and (max-width: 850px) {
+.flex-container {
+flex-wrap: wrap;
+}
+} */
